@@ -1,6 +1,10 @@
-import Character, {
-  Bowerman, Swordsman, Magician, Daemon, Undead, Zombie,
-} from '../basic';
+import Character from '../basic';
+import Bowerman from '../bowerman';
+import Swordsman from '../swordsman';
+import Magician from '../magician';
+import Daemon from '../daemon';
+import Undead from '../undead';
+import Zombie from '../zombie';
 
 test('Объект должен создаваться', () => {
   const unit = new Character('name', 'type');
