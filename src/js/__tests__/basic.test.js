@@ -1,4 +1,3 @@
-import Character from '../basic';
 import Bowerman from '../bowerman';
 import Swordsman from '../swordsman';
 import Magician from '../magician';
@@ -7,13 +6,8 @@ import Undead from '../undead';
 import Zombie from '../zombie';
 
 test('Объект должен создаваться', () => {
-  const unit = new Character('name', 'type');
-  expect(unit.name).toBe('name');
-});
-
-test('Объект должен создаваться', () => {
-  const unit = new Bowerman('Bowerman', 'Bowerman');
-  expect(unit.name).toBe('Bowerman');
+  const unit = new Bowerman('Bowman', 'Bowman');
+  expect(unit.name).toBe('Bowman');
 });
 
 test('Объект должен создаваться', () => {
